@@ -11,9 +11,15 @@ void soma()
 
 void subtrai()
 {
-    //todo
-    system ("pause");
-    system("cls"); 
+    float a1, b1, res;
+    printf("Escreva um numero: \n");
+    scanf("%f", &a1);
+    printf("Escreva um numero: \n");
+    scanf("%f", &b1);
+    res = a1 - b1;
+    printf("Os numeros escolhidos foram %.1f, %.1f e o resultado e %.1f.\n", a1, b1, res);
+    system("pause");
+    system("cls");
     menu();
 }
 
